@@ -3,8 +3,6 @@ import PROJECTS from "./data/projects";
 
 class Project extends Component {
   render() {
-    console.log("This.props", this.props);
-
     const { title, image, description, link } = this.props.project;
 
     return (
