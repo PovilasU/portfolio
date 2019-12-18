@@ -11,7 +11,7 @@ const SOCIAL_PROFILES = [
   },
   {
     id: 2,
-    link: "https://github.com/PovilasU/povilas-app",
+    link: "https://github.com/PovilasU",
     image: githubIcon
   },
   {

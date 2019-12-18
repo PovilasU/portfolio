@@ -21,7 +21,7 @@ class App extends Component {
           <div>
             <p>I live in Oslo, and code every day.</p>
             <p>
-              My favorite language is JavaScript, and I this React.js is
+              My favorite language is JavaScript, and I think React.js is
               awesome.
             </p>
             <p>Besides coding, I also love movies and music!</p>
