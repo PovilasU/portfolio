@@ -1,31 +1,38 @@
-import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
+import project1 from '../assets/tictactoe.jpg';
+import project2 from '../assets/calculator.jpg';
+import project3 from '../assets/crypto.jpg';
 
 const PROJECTS = [
   {
     id: 1,
-    title: "Example React Application",
-    description: "A React App I build, involving JS and core dev concepts!",
-    link: "http://github.com/povilasu/example",
-    image: project1
+    title: 'React App game Tic-tac-toe',
+    description:
+      'A React App I build, involving JS Webpack, React.js, states, SCSS, CSS Flexbox, MaterialUI',
+    link: 'https://master.d15l0qm0qojwlr.amplifyapp.com/',
+    linktext: 'Code on GitHub',
+    githug: 'https://github.com/PovilasU/tic-tac-toe',
+    image: project1,
   },
   {
     id: 2,
-    title: "My API",
+    title: 'React Redux Calculator',
     description:
-      "A REST API that I build from scratch with GET and POST requests!",
-    link: "http://github.com/povilasu/example2",
-    image: project2
+      'A Calculator React App that I build from scratch using React-Redux and "Semantic-UI" framework',
+    link: 'https://react-redux-calculator1.netlify.app/',
+    linktext: 'Code on GitHub',
+    githug: 'https://github.com/PovilasU/redux-calculator',
+    image: project2,
   },
   {
     id: 3,
-    title: "Example Final Project",
+    title: 'Crypto currency website',
     description:
-      "My unique final project for my university about scheduling algorithms",
-    link: "http://github.com/povilasu/example3",
-    image: project3
-  }
+      'My unique project  for my university about crypto currencies using Amazon Web Services  ',
+    link: 'https://povilas.s3-eu-west-1.amazonaws.com/index.html',
+    linktext: '',
+    image: project3,
+    br: true,
+  },
 ];
 
 export default PROJECTS;
